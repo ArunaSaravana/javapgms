@@ -33,6 +33,7 @@ public class Twodimensional {
             {
                 if(min>a[i][j])
                 {
+                       min=a[i][j];
                     System.out.println(a[i][j]);
                 }
             }
@@ -44,6 +45,7 @@ public class Twodimensional {
             {
                 if(a[i][j]>max)
                 {
+                    max=a[i][j];
                     System.out.println(a[i][j]);
                 }
             }
